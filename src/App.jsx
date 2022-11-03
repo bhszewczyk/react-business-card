@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import './App.css';
 import Information from '../components/Information';
+import MainContent from '../components/MainContent';
 
 function App() {
 	return (
 		<div className='app'>
 			<Information />
+			<MainContent />
 		</div>
 	);
 }

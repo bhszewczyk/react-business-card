@@ -1,5 +1,5 @@
 :root {
-	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-family: Rubik, Avenir, Helvetica, Arial, sans-serif;
 	font-size: 62.5%;
 	line-height: 24px;
 	color-scheme: light dark;
@@ -16,6 +16,7 @@
 body {
 	margin: 0;
 	min-width: 320px;
+	width: 100vw;
 	min-height: 100vh;
 	max-width: 100vw;
 }

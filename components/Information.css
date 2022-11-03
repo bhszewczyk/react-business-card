@@ -1,11 +1,5 @@
 .user {
 	margin: 0 auto;
-	max-width: 300px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #1a1b21;
-	color: #fff;
 	padding: 2rem;
 }
 
@@ -35,7 +29,7 @@
 }
 
 .user-contact {
-	width: 80%;
+	width: 100%;
 	margin: 2rem 0;
 	display: flex;
 	justify-content: space-around;
@@ -48,7 +42,7 @@
 .btn-contact {
 	font-family: inherit;
 	font-size: 1.2rem;
-	width: 90px;
+	width: 40%;
 	display: inline-block;
 	text-align: center;
 	cursor: pointer;
