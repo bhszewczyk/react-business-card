@@ -11,9 +11,17 @@ footer a:not(:last-of-type) {
 	margin-right: 2rem;
 }
 
+.icon-social {
+	transition: all 0.2s linear;
+}
+
 .icon-social::before {
 	display: inline-block;
 	font-size: 3rem;
-	color: #918e9b;
+	color: #aca9b4;
 	padding: 1rem;
+}
+
+.icon-social:hover {
+	transform: scale(1.2);
 }
