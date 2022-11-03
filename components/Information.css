@@ -1,0 +1,79 @@
+.user {
+	margin: 0 auto;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #1a1b21;
+	color: #fff;
+	padding: 2rem;
+}
+
+.user-img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.user-info h1 {
+	margin: 0;
+	padding: 2rem 0 0.4rem 0;
+	font-size: 2.4rem;
+}
+
+.user-info h3 {
+	margin: 0;
+	font-size: 1.4rem;
+	color: #f3bf99;
+	font-weight: 100;
+}
+
+.user-contact {
+	width: 80%;
+	margin: 2rem 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn {
+	padding: 0.4rem 0.8rem;
+}
+
+.btn-contact {
+	font-family: inherit;
+	font-size: 1.2rem;
+	width: 90px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	color: #1e1f26;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.btn-contact--email {
+	background-color: #e1e1e1;
+}
+
+.btn-contact--email:hover {
+	background-color: #ededed;
+}
+
+.btn-contact--linkedin {
+	background-color: #5093e2;
+	color: #fff;
+}
+
+.btn-contact--linkedin:hover {
+	background-color: #5d98dc;
+}
+
+.btn-contact i {
+	margin-right: 8px;
+}
