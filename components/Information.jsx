@@ -17,12 +17,14 @@ function Information() {
 				<a
 					className='btn btn-contact btn-contact--email'
 					href='mailto:bhszewczyk@gmail.com'
+					target='_blank'
 				>
 					<i class='fa-regular fa-envelope'></i>Email
 				</a>
 				<a
 					href='https://www.linkedin.com/in/bdarowska/'
 					className='btn btn-contact btn-contact--linkedin'
+					target='_blank'
 				>
 					<i class='fa-brands fa-linkedin-in'></i>Linkedin
 				</a>
